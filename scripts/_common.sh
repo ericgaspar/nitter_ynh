@@ -5,9 +5,7 @@
 #=================================================
 
 # dependencies used by the app
-pkg_dependencies="postgresql apt-transport-https"
-
-nodejs_version=12
+pkg_dependencies="nim libsass-dev redis-server"
 
 #=================================================
 # PERSONAL HELPERS

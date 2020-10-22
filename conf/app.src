@@ -1,6 +1,7 @@
-SOURCE_URL=https://github.com/codimd/server/archive/1.6.0.tar.gz
-SOURCE_SUM=3639eaf70a37ee0513c75259c70b3d0c2c10116e9b2989dc9c571f98017120bd
+SOURCE_URL=https://github.com/zedeus/nitter/archive/a180e5649c09d4ecbd03eed9c3695b26301557ec.tar.gz
+SOURCE_SUM=c4402efd4bfa68bcf15cf0de78a8d72f3c7b48baba73a5803f85038d3c457c22
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
-SOURCE_FILENAME=codimd.tar.gz
+SOURCE_FILENAME=
+

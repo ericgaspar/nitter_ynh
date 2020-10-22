@@ -1,19 +1,18 @@
 [Unit]
-Description=CodiMD: collaborative Markdown notes
-Documentation=https://github.com/codimd/server
-After=network.target postgresql.service
+Description=Nitter (An alternative Twitter front-end)
+After=syslog.target
+After=network.target
 
 [Service]
 Type=simple
 User=__APP__
 Group=__APP__
-WorkingDirectory=__FINALPATH__
-Environment="PATH=__ENV_PATH__"
-Environment="NODE_ENV=production"
-ExecStart=__YNH_NPM__ start --production
+
+WorkingDirectory=/home/nitter/nitter
+ExecStart=/home/nitter/nitter/nitter
+
 Restart=always
-PrivateTmp=true
-PrivateDevices=true
+RestartSec=15
 
 [Install]
 WantedBy=multi-user.target
