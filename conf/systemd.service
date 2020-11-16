@@ -1,5 +1,5 @@
 [Unit]
-Description=Nitter (An alternative Twitter front-end)
+Description=Nitter: An alternative Twitter front-end
 After=syslog.target
 After=network.target
 
@@ -8,8 +8,8 @@ Type=simple
 User=__APP__
 Group=__APP__
 
-WorkingDirectory=/home/nitter/nitter
-ExecStart=/home/nitter/nitter/nitter
+WorkingDirectory=__FINALPATH__
+ExecStart=__FINALPATH__/nitter
 
 Restart=always
 RestartSec=15
