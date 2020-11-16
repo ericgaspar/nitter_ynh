@@ -96,14 +96,14 @@ ynh_system_user_create --username=$app --home_dir=$final_path
 #=================================================
 # SPECIFIC SETUP
 #==============================================
-# INSTALL CODIMD
+# INSTALL NITTER
 #==============================================
-ynh_script_progression --message="Building CodiMD... (this will take some time and resources!)" --weight=240
+ynh_script_progression --message="Building Nitter... (this will take some time and resources!)" --weight=20
 
 pushd "$final_path" || ynh_die
- 	ynh_exec_as $app nimble build -d:release
-	ynh_exec_as $app nimble scss
-	ynh_exec_as $app mkdir ./tmp
+ 	nimble build -d:release
+	nimble scss
+	mkdir ./tmp
 popd || ynh_die
 
 #=================================================

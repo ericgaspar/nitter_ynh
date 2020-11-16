@@ -1,7 +1,7 @@
 # Nitter pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/codimd.svg)](https://dash.yunohost.org/appci/app/codimd) ![](https://ci-apps.yunohost.org/ci/badges/codimd.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/codimd.maintain.svg)  
-[![Installer Nitter avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=codimd)
+[![Niveau d'intégration](https://dash.yunohost.org/integration/nitter.svg)](https://dash.yunohost.org/appci/app/nitter) ![](https://ci-apps.yunohost.org/ci/badges/nitter.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/nitter.maintain.svg)  
+[![Installer Nitter avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=nitter)
 
 *[Read this readme in english.](./README.md)* 
 
@@ -15,11 +15,11 @@ CodiMD est un service web de traitement de texte collaboratif en temps réel. Il
 
 ## Captures d'écran
 
-![](https://demo.codimd.org/screenshot.png)
+![](https://raw.githubusercontent.com/zedeus/nitter/master/screenshot.png)
 
 ## Démo
 
-* [Démo officielle](https://demo.codimd.org/)
+* [Démo officielle](https://nitter.net/)
 
 ## Configuration
 
@@ -45,7 +45,7 @@ Vous pouvez configurer CodiMD en modifiant le fichier `/var/www/codimd/config.js
 ## Liens
 
  * Signaler un bug : https://github.com/YunoHost-Apps/nitter_ynh/issues
- https://nitter.net/
+ * Site de l'application : https://nitter.net/
  * Dépôt de l'application principale : https://github.com/zedeus/nitter
  * Site web YunoHost : https://yunohost.org/
 

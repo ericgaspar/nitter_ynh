@@ -9,17 +9,17 @@
 If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
 
 ## Overview
-CodiMD is a real-time collaborative word processing web service. It uses Markdown language.
+A free and open source alternative Twitter front-end focused on privacy. Inspired by the Invidious project.
 
 **Shipped version:** 1.6.0
 
 ## Screenshots
 
-![](https://demo.codimd.org/screenshot.png)
+![](https://raw.githubusercontent.com/zedeus/nitter/master/screenshot.png)
 
 ## Demo
 
-* [Official demo](https://demo.codimd.org/)
+* [Official demo](https://nitter.net/)
 
 ## Configuration
 
@@ -45,6 +45,7 @@ You can configure CodiMD by editing this file `/var/www/codimd/config.json` usin
 ## Links
 
  * Report a bug: https://github.com/YunoHost-Apps/nitter_ynh/issues
+ * App website: https://nitter.net/
  * Upstream app repository: https://github.com/zedeus/nitter
  * YunoHost website: https://yunohost.org/
 
